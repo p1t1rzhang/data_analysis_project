@@ -49,12 +49,3 @@
 * **常用 Python 工具**： `StandardScaler`, `MinMaxScaler`
 
 ---
-
-## 🛠️ 使用說明 (How to Use)
-
-本專案每個步驟皆已封裝為獨立、模組化的 Python 腳本。
-
-1. **複製本專案至本地端**：
-   ```bash
-   git clone [https://github.com/p1t1rzhang/data_analysis_project.git](https://github.com/p1t1rzhang/data_analysis_project.git)
-   cd data_analysis_project
