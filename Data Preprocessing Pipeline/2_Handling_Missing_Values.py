@@ -5,9 +5,9 @@ from sklearn.impute import KNNImputer
 
 
 class MissingValueHandler:
-    """精通資料工程與機器學習前處理的缺失值處理模組。
-
-    提供三種核心缺失值處理策略：直接丟棄法、統計值填充法、以及 KNN 演算法預測填充法。
+    """
+    資料工程與機器學習前處理的缺失值處理模組。
+    三種處理策略：直接丟棄法、統計值填充法、以及 KNN 演算法預測填充法。
     """
 
     def __init__(self):
