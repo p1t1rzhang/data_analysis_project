@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # ==========================================
-# 1. 請在此處填入您的資料集檔案路徑 (支援 .csv 或 .xlsx/.xls)
+# 1. 讀取資料 ( csv/xlsx/xls)
 # ==========================================
 read_file = ""
 # 檢查使用者是否已填寫路徑
@@ -11,7 +11,7 @@ if not read_file.strip():
         "[Error] 請先在 read_file 變數中填入您的資料檔案路徑！"
     )
 else:
-    # 2. 自動判斷副檔名並讀取資料 (Simplicity First: 不做過度複雜的封裝)
+    # 2. 自動判斷副檔名並讀取資料 
     file_extension = os.path.splitext(read_file)[1].lower()
 
     try:
